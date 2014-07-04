@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodEncapsulation", "ExtensionMethodEncapsulation\ExtensionMethodEncapsulation.csproj", "{F603DC9E-48D0-4C17-868E-1776406D092C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoEncalsulation", "NoEncalsulation\NoEncalsulation.csproj", "{D4FE199D-F8F4-4F67-9F26-4E8C285ADA3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{10ECB999-5684-4DDE-A749-61342E3A1947}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +22,10 @@ Global
 		{F603DC9E-48D0-4C17-868E-1776406D092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F603DC9E-48D0-4C17-868E-1776406D092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F603DC9E-48D0-4C17-868E-1776406D092C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FE199D-F8F4-4F67-9F26-4E8C285ADA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FE199D-F8F4-4F67-9F26-4E8C285ADA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FE199D-F8F4-4F67-9F26-4E8C285ADA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FE199D-F8F4-4F67-9F26-4E8C285ADA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
